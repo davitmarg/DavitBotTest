@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
 const fs=require('fs');
 let config = require('./botconfig.json');
-let token = config.token;
+//let token = config.token;
 let prefix = config.prefix;
 var message;
 
@@ -22,7 +22,7 @@ bot.on('message', async Message => {
 	check(message.content);
 });
 
-bot.login(token);
+bot.login("Njc4OTY1MTExNTk1MjA0NjA4.Xkq" + "diQ.i1tQ_ntLmcg106pp-Cs0YZADGz4");
 
 
 
