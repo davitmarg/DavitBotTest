@@ -20,7 +20,7 @@ bot.on('message', async Message => {
 	message=Message;
 	if(message.author.username==bot.user.username)
 		return;
-	check(message.content);
+	check(message.content.toLowerCase());
 });
 
 bot.login("Njc4OTY1MTExNTk1MjA0NjA4.XkqdiQ.BvK" + "daQOJbK9_pO1JdaA6JbQT1Ss");
