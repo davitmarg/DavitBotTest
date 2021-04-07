@@ -10,6 +10,7 @@ var message;
 bot.on('ready', () => {
 	bot.user.setActivity("codeforces duels"); 
 	console.log(`Running ${bot.user.username}!`);
+	console.log("orz")
 	bot.generateInvite(["ADMINISTRATOR"]).then(link => {
 		console.log(link);
 	})
