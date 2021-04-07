@@ -22,7 +22,7 @@ bot.on('message', async Message => {
 	check(message.content);
 });
 
-bot.login("Njc4OTY1MTExNTk1MjA0NjA4.Xkq" + "diQ.i1tQ_ntLmcg106pp-Cs0YZADGz4");
+bot.login("Njc4OTY1MTExNTk1MjA0NjA4.XkqdiQ.BvK" + "daQOJbK9_pO1JdaA6JbQT1Ss");
 
 
 
